@@ -21,6 +21,7 @@ Ett första praktiskt användningsområde är texter där flera nordiska språk 
 - [bok/](bok/) – löpande text- och bokmaterial.
 - [planering/](planering/) – införande, användningsområden, språkteknik och långsiktig övergång till skandinaviska som projektspråk.
 - [Språklig närhet mellan svenska, danska och norska](planering/spraklig-narhet.md) – forskningsunderlag och motivering för ett gemensamt skriftspråk.
+- [Jämförelse av de vanligaste orden](forskning/ordjamforelse/README.md) – metod och datakällor för en reproducerbar analys av kognater, stavningslikhet och betydelser.
 
 ## Projektet använder sin egen standard
 Ett långsiktigt mål är att, när stavningsregler och grundläggande ordförråd har etablerats, successivt översätta projektets eget material till skandinaviska. Det är projektets form av *dogfooding*: använda skriftspråket i praktiken för att upptäcka luckor och förbättra det. Under utvecklingsfasen används svenska som arbetsspråk.
