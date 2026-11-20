@@ -34,6 +34,10 @@ Se [projektets relation till Nordum](planering/forhallande-till-nordum.md) för 
 - [hunspell/](hunspell/README.md) – stavningskontroll och ordlistor.
 - [forskning/](forskning/) – undersökningar och jämförande underlag.
 - Övriga tekniska kataloger skapas när det finns konkret innehåll att lägga där.
+- [bok/](bok/) – löpande text- och bokmaterial.
+- [planering/](planering/) – införande, användningsområden, språkteknik och långsiktig övergång till skandinaviska som projektspråk.
+- [Språklig närhet mellan svenska, danska och norska](planering/spraklig-narhet.md) – forskningsunderlag och motivering för ett gemensamt skriftspråk.
+- [Jämförelse av de vanligaste orden](forskning/ordjamforelse/README.md) – metod och datakällor för en reproducerbar analys av kognater, stavningslikhet och betydelser.
 
 ## Arbetssätt
 
