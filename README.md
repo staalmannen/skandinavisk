@@ -1,9 +1,24 @@
 # skandinavisk
-Utveckla ett gemensamt skandinaviskt skrivspråk som öppen källkod
 
+Utveckla ett gemensamt skandinaviskt skriftspråk som öppen källkod.
 
-# Mål
-Det huvudsakliga målet är att utveckla ett gemensamt skandinaviskt skrivspråk. Syftet är inte att likrikta språken och därför bejakar skrivspråket en hög diversitet i talspråket. Många principer överlappar med Nynorsk : Vi försöker eliminera många arkaiska stavningar från Danska och Svenska, försöker att ha en enda stavning för varje ljud och försöker undvika tysta bokstäver i så stor utsträckning som möjligt. Eftersom vi bejakar talad diversitet samtidigt som vi försöker ligga nära det fonetiska i stavningen tillåter vi flera alternativa stavningar av samma ord. Detta har en extra skönlitterär fördel: det blir lättare att uttrycka en dialekt i skrift.
+## Syfte
+Projektet utvecklar en gemensam, frivillig skriftspråksstandard för svenska, danska och norska. Den ska kunna användas parallellt med de nationella skriftspråken, inte ersätta dem eller likrikta det talade språket.
 
-# Alfabet
-Alfabetet är det Danska, med Æ/æ istället för Ä/ä, Ø/ø istället för Ö/ö. Å/å är samma för båda alfabeten. Om de skulle behövas kan även de gamla tecknen eth (Ð/ð) och thorn (Þ/þ) användas. Tecknet ð skulle tillexempel kunna användas för det unika danska ljudet Stød.
+Ett första praktiskt användningsområde är texter där flera nordiska språk i dag ofta trycks eller publiceras sida vid sida: produktinformation, innehållsförteckningar, säkerhets- och varningstexter, manualer och teknisk dokumentation.
+
+## Grundprinciper
+- En gemensam och konsekvent norm för gränsöverskridande skriftlig kommunikation.
+- Stavningen ska så långt det är rimligt vara ljudnära och undvika historiska eller stumma bokstäver.
+- Dialektal variation i talet ska respekteras.
+- Normen ska ha en officiell huvudstavning per lexem, men ordlistan kan dokumentera tillåtna dialektala varianter med regionala och uttalsmässiga notiser.
+- Regler och ordlistor ska vara öppna och möjliga att använda i språkverktyg.
+
+## Projektstruktur
+- [regler/](regler/README.md) – språkets mål, ortografi, uttal, dialekter och ordvalsprinciper.
+- [hunspell/](hunspell/README.md) – stavningskontroll och ordlistor.
+- [bok/](bok/) – löpande text- och bokmaterial.
+- [planering/](planering/) – införande, användningsområden och språkteknik.
+
+## Status
+Projektet är under utveckling. Dokumenten skiljer mellan preliminära principer, arbetsförslag och frågor som kräver språkvetenskaplig utredning. Exempel är illustrativa tills de har granskats och fastställts.
