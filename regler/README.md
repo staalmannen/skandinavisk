@@ -1,20 +1,13 @@
-# Språkregler
+# Tidigare språkprinciper
 
-Här samlas regler och arbetsprinciper för det gemensamma skandinaviska skriftspråket.
+Den här katalogen innehåller dokumentation från Skandinavisk-projektets tidigare inriktning att utveckla en egen gemensam skandinavisk skriftspråksnorm.
 
-## Dokument
+**Status:** dokumenten är historiskt arbetsmaterial och ska inte betraktas som normerande för Nordum eller som den aktuella färdplanen för Skandinavisk.
 
-- [Mål och grundprinciper](mål.md)
-- [Alfabet](alfabet.md)
-- [Ortografiska principer](ortografi.md)
-- [Uttal och dialektvariation](uttal-och-dialekter.md)
-- [Ordförråd och falska vänner](ordforrad-och-falska-vanner.md)
+Projektets nuvarande uppdrag är att komplettera Nordum med tekniska språkresurser och integrationer. Se:
 
-Projektet är under utveckling. En princip som diskuteras är inte automatiskt en fastställd regel. Målet är att så småningom kunna härleda en normativ grammatik, ordlista och maskinläsbara resurser för stavningskontroll ur dessa dokument.
+- [Projektets mål och grundprinciper](mål.md) – aktuell roll och principer.
+- [Förhållandet till Nordum](../planering/forhallande-till-nordum.md) – upstream/downstream-modell och hantering av avvikelser.
+- [Teknisk färdplan](../planering/teknisk-fardplan.md) – prioriterade leveranser.
 
-## Hur dokumenten ska läsas
-
-Projektet är under utveckling. En princip som diskuteras är inte automatiskt en fastställd regel. Därför anges om ett förslag är preliminärt eller om det kräver ytterligare utredning.
-
-Målet är att så småningom kunna härleda en normativ grammatik, en ordlista och maskinläsbara resurser för stavningskontroll ur dessa dokument.
-
+De äldre dokumenten om alfabet, ortografi, uttal och ordförråd bevaras som bakgrund och kan vara användbara när vi formulerar konkreta förbättringsförslag till Nordum. De utgör inte i sig beslut om att Skandinavisk ska ha en egen språkstandard.
