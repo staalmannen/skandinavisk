@@ -3,6 +3,7 @@
 Utveckla ett gemensamt skandinaviskt skriftspråk som öppen källkod.
 
 ## Syfte
+
 Projektet utvecklar en gemensam, frivillig skriftspråksstandard för svenska, danska och norska. Den ska kunna användas parallellt med de nationella skriftspråken, inte ersätta dem eller likrikta det talade språket.
 
 Ett första praktiskt användningsområde är texter där flera nordiska språk i dag ofta trycks eller publiceras sida vid sida: produktinformation, innehållsförteckningar, säkerhets- och varningstexter, manualer och teknisk dokumentation.
