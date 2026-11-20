@@ -4,3 +4,6 @@
 [submodule "hunspell/källmaterial/dictionaries"]
 	path = hunspell/källmaterial/dictionaries
 	url = https://github.com/wooorm/dictionaries
+[submodule "forskning/nordum"]
+	path = forskning/nordum
+	url = https://github.com/nordum/nordum
