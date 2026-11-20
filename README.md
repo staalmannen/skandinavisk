@@ -18,7 +18,10 @@ Ett första praktiskt användningsområde är texter där flera nordiska språk 
 - [regler/](regler/README.md) – språkets mål, ortografi, uttal, dialekter och ordvalsprinciper.
 - [hunspell/](hunspell/README.md) – stavningskontroll och ordlistor.
 - [bok/](bok/) – löpande text- och bokmaterial.
-- [planering/](planering/) – införande, användningsområden och språkteknik.
+- [planering/](planering/) – införande, användningsområden, språkteknik och långsiktig övergång till skandinaviska som projektspråk.
+
+## Projektet använder sin egen standard
+Ett långsiktigt mål är att, när stavningsregler och grundläggande ordförråd har etablerats, successivt översätta projektets eget material till skandinaviska. Det är projektets form av *dogfooding*: använda skriftspråket i praktiken för att upptäcka luckor och förbättra det. Under utvecklingsfasen används svenska som arbetsspråk.
 
 ## Status
 Projektet är under utveckling. Dokumenten skiljer mellan preliminära principer, arbetsförslag och frågor som kräver språkvetenskaplig utredning. Exempel är illustrativa tills de har granskats och fastställts.
