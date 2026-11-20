@@ -1,0 +1,6 @@
+[submodule "hunspell/källmaterial/hunspell-sv"]
+	path = hunspell/källmaterial/hunspell-sv
+	url = https://github.com/yeager/hunspell-sv
+[submodule "hunspell/källmaterial/dictionaries"]
+	path = hunspell/källmaterial/dictionaries
+	url = https://github.com/wooorm/dictionaries

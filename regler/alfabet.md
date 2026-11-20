@@ -1,0 +1,1 @@
+Alfabetet är det Danska, med Æ/æ istället för Ä/ä, Ø/ø istället för Ö/ö. Å/å är samma för båda alfabeten. Om de skulle behövas kan även de gamla tecknen eth (Ð/ð) och thorn (Þ/þ) användas. Tecknet ð skulle tillexempel kunna användas för det unika danska ljudet Stød.
