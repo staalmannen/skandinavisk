@@ -4,25 +4,25 @@ Utveckla ett gemensamt skandinaviskt skriftspråk som öppen källkod.
 
 ## Syfte
 
-Projektet utvecklar en gemensam, frivillig skriftspråksstandard för svenska, danska och norska. Standarden är tänkt att kunna användas parallellt med de nationella skriftspråken, inte ersätta dem eller likrikta det talade språket.
+Projektet utvecklar en gemensam, frivillig skriftspråksstandard för svenska, danska och norska. Den ska kunna användas parallellt med de nationella skriftspråken, inte ersätta dem eller likrikta det talade språket.
 
 Ett första praktiskt användningsområde är texter där flera nordiska språk i dag ofta trycks eller publiceras sida vid sida: produktinformation, innehållsförteckningar, säkerhets- och varningstexter, manualer och teknisk dokumentation.
 
 ## Grundprinciper
-
 - En gemensam och konsekvent norm för gränsöverskridande skriftlig kommunikation.
 - Stavningen ska så långt det är rimligt vara ljudnära och undvika historiska eller stumma bokstäver.
 - Dialektal variation i talet ska respekteras.
-- Normen ska ha en officiell huvudstavning per lexem, men ordlistan kan dokumentera tillåtna dialektala varianter med geografiska och uttalsmässiga notiser.
-- Regler och ordlistor ska vara öppna, maskinläsbara där det är lämpligt och möjliga att använda i språkverktyg.
+- Normen ska ha en officiell huvudstavning per lexem, men ordlistan kan dokumentera tillåtna dialektala varianter med regionala och uttalsmässiga notiser.
+- Regler och ordlistor ska vara öppna och möjliga att använda i språkverktyg.
 
 ## Projektstruktur
-
 - [regler/](regler/README.md) – språkets mål, ortografi, uttal, dialekter och ordvalsprinciper.
 - [hunspell/](hunspell/README.md) – stavningskontroll och ordlistor.
 - [bok/](bok/) – löpande text- och bokmaterial.
-- [planering/](planering/) – införande, användningsområden och språk­teknik.
+- [planering/](planering/) – införande, användningsområden, språkteknik och långsiktig övergång till skandinaviska som projektspråk.
+
+## Projektet använder sin egen standard
+Ett långsiktigt mål är att, när stavningsregler och grundläggande ordförråd har etablerats, successivt översätta projektets eget material till skandinaviska. Det är projektets form av *dogfooding*: använda skriftspråket i praktiken för att upptäcka luckor och förbättra det. Under utvecklingsfasen används svenska som arbetsspråk.
 
 ## Status
-
-Projektet är under utveckling. Dokumenten skiljer mellan preliminära principer, arbetsförslag och frågor som kräver språkvetenskaplig utredning. Exempel i dokumentationen är illustrativa tills de har granskats och fastställts.
+Projektet är under utveckling. Dokumenten skiljer mellan preliminära principer, arbetsförslag och frågor som kräver språkvetenskaplig utredning. Exempel är illustrativa tills de har granskats och fastställts.
