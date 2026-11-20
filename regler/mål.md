@@ -1,43 +1,46 @@
-# Mål och grundprinciper
+# Projektets mål och grundprinciper
+
+**Aktuell inriktning:** tekniskt kompletteringsprojekt kring Nordum.
 
 ## Övergripande mål
 
-Utveckla ett gemensamt skandinaviskt skriftspråk för svenska, danska och norska. Det ska kunna användas som en frivillig, parallell standard. Avsikten är inte att ersätta de nationella skriftspråken eller likrikta människors tal.
+Skandinavisk ska utveckla, paketera och underhålla språkresurser och tekniska integrationer för Nordum. Målet är att göra språket tillgängligt i program, operativsystem och digitala arbetsflöden där Nordums egna verktyg eller resurser ännu inte täcker behovet.
 
-Projektet vill förena hög begriplighet mellan länderna med en stavning som är mer regelbunden och ljudnära än flera av dagens historiskt framvuxna stavningssystem. Många ambitioner har beröringspunkter med Nynorsk, men standarden ska utformas med hela det skandinaviska språkområdet som utgångspunkt.
+Nordums publicerade specifikation, grammatik och ordförråd är vår uppströms språkliga referens. Skandinavisk ska i första hand återanvända och bygga vidare på detta arbete, inte utveckla en parallell språkstandard.
 
-## Gemensam norm och dialektal variation
+## Arbetsområden
 
-Det huvudsakliga målet är att utveckla ett gemensamt skandinaviskt skriftspråk för svenska, danska och norska. Det ska kunna användas som en frivillig, parallell standard. Avsikten är inte att ersätta de nationella skriftspråken eller att likrikta människors tal.
+- stavningskontroll, bland annat Hunspell,
+- ordlistor, affixregler och böjningsdata,
+- översättnings- och lokaliseringsfiler,
+- integrationer för kontorsprogram och texteditorer,
+- locale- och systemresurser,
+- testkorpusar och kvalitetssäkring,
+- andra maskinläsbara språkresurser som underlättar praktisk användning.
 
-Projektet vill förena hög begriplighet mellan länderna med en stavning som är mer regelbunden och ljudnära än flera av dagens historiskt framvuxna stavningssystem. Många av ambitionerna har beröringspunkter med Nynorsk, men standarden ska utformas med hela det skandinaviska språkområdet som utgångspunkt.
+## Förhållandet till språknormen
 
-Standarden ska ha en officiell huvudstavning per lexem. Huvudformen används i neutral, formell och gränsöverskridande text.
+Nordums aktuella norm är utgångspunkten. Vi ska dokumentera vilken version av specifikationen och vilka källor varje resurs bygger på.
 
-Samtidigt ska dialektala uttal och etablerade regionala former respekteras. Ordlistan kan därför ange alternativa dialektala stavningar som tillåtna varianter, tillsammans med uppgifter om region, uttal och användning när sådana uppgifter är kända.
+Tekniska begränsningar kan ibland kräva anpassningar. Sådana ska i första hand lösas i integrationslagret och inte genom att ändra språkets stavning eller grammatik.
 
-Detta skiljer mellan:
-1. **Huvudstavning** – standardens rekommenderade form.
-2. **Dialektal variant** – dokumenterad och tillåten alternativ form med angiven regional eller språklig anknytning.
-3. **Historisk eller avrådd form** – kan anges som hänvisning men är inte automatiskt en godkänd variant.
+Om en språklig avvikelse verkar nödvändig ska den:
+1. beskrivas tydligt och med konkreta exempel,
+2. motiveras utifrån begriplighet, konsekvens eller tekniska behov,
+3. hållas åtskild från Nordums officiella former,
+4. om lämpligt framföras som ett förslag till Nordum.
 
-Syftet är att skapa en stabil norm för exempelvis manualer och produkttexter utan att beskriva dialektal variation som felaktig.
+En lokal anpassning blir inte automatiskt en ändring av Nordums norm.
 
-## Stavningsideal
-- Sträva efter en tydlig koppling mellan ljud och bokstäver.
-- Undvik stumma bokstäver och onödigt historiska stavningsskillnader där en gemensam lösning är möjlig.
-- Prioritera konsekvens och läsbarhet framför en mekanisk fonetisk återgivning.
-- Beakta uttal i hela det skandinaviska området; enskilda lokala uttal ska inte automatiskt styra huvudstavningen.
-- Dokumentera osäkerhet och verklig variation i stället för att dölja den.
+## Kvalitetsprinciper
 
-## Första användningsområden
+- **Spårbarhet:** varje importerad eller bearbetad resurs ska ha dokumenterad källa och version.
+- **Licensmedvetenhet:** återanvändning ska följa respektive källas licens och krav på attribution.
+- **Reproducerbarhet:** genererade resurser ska kunna byggas om från dokumenterade källor och skript.
+- **Testbarhet:** ordlistor och regler ska ha automatiserade tester där det är möjligt.
+- **Åtskillnad:** upstream-data, lokala anpassningar och genererade artefakter ska hållas isär.
+- **Samarbete:** förbättringar som berör själva språket bör återkopplas till Nordum när det är lämpligt.
 
-Ett tidigt mål är texter där flera nordiska språk ofta förekommer parallellt:
+## Första prioritering
 
-- produktetiketter och förpackningstexter,
-- innehålls- och ingrediensförteckningar,
-- säkerhets- och varningstexter,
-- bruks- och monteringsanvisningar,
-- teknisk och kommersiell dokumentation.
-
-Användning i reglerade sammanhang förutsätter separat granskning av tillämpliga språk- och märkningskrav.
+Första konkreta leveransen är att undersöka Nordums ordlista och böjningsmodell och jämföra dem med de Hunspell-resurser som redan finns i repositoryt. Resultatet ska ligga till grund för en testbar Hunspell-implementation.
