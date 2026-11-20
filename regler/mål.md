@@ -1,1 +1,34 @@
-Det huvudsakliga målet är att utveckla ett gemensamt skandinaviskt skrivspråk. Syftet är inte att likrikta språken och därför bejakar skrivspråket en hög diversitet i talspråket. Många principer överlappar med Nynorsk : Vi försöker eliminera många arkaiska stavningar från Danska och Svenska, försöker att ha en enda stavning för varje ljud och försöker undvika tysta bokstäver i så stor utsträckning som möjligt. Eftersom vi bejakar talad diversitet samtidigt som vi försöker ligga nära det fonetiska i stavningen tillåter vi flera alternativa stavningar av samma ord. Detta har en extra skönlitterär fördel: det blir lättare att uttrycka en dialekt i skrift.
+# Mål och grundprinciper
+
+## Övergripande mål
+Utveckla ett gemensamt skandinaviskt skriftspråk för svenska, danska och norska. Det ska kunna användas som en frivillig, parallell standard. Avsikten är inte att ersätta de nationella skriftspråken eller likrikta människors tal.
+
+Projektet vill förena hög begriplighet mellan länderna med en stavning som är mer regelbunden och ljudnära än flera av dagens historiskt framvuxna stavningssystem. Många ambitioner har beröringspunkter med Nynorsk, men standarden ska utformas med hela det skandinaviska språkområdet som utgångspunkt.
+
+## Gemensam norm och dialektal variation
+Standarden ska ha en officiell huvudstavning per lexem. Huvudformen används i neutral, formell och gränsöverskridande text.
+
+Samtidigt ska dialektala uttal och etablerade regionala former respekteras. Ordlistan kan därför ange alternativa dialektala stavningar som tillåtna varianter, tillsammans med uppgifter om region, uttal och användning när sådana uppgifter är kända.
+
+Detta skiljer mellan:
+1. **Huvudstavning** – standardens rekommenderade form.
+2. **Dialektal variant** – dokumenterad och tillåten alternativ form med angiven regional eller språklig anknytning.
+3. **Historisk eller avrådd form** – kan anges som hänvisning men är inte automatiskt en godkänd variant.
+
+Syftet är att skapa en stabil norm för exempelvis manualer och produkttexter utan att beskriva dialektal variation som felaktig.
+
+## Stavningsideal
+- Sträva efter en tydlig koppling mellan ljud och bokstäver.
+- Undvik stumma bokstäver och onödigt historiska stavningsskillnader där en gemensam lösning är möjlig.
+- Prioritera konsekvens och läsbarhet framför mekanisk fonetisk återgivning.
+- Beakta uttal i hela det skandinaviska området; enskilda lokala uttal ska inte automatiskt styra huvudstavningen.
+- Dokumentera osäkerhet och verklig variation i stället för att dölja den.
+
+## Första användningsområden
+- produktetiketter och förpackningstexter,
+- innehålls- och ingrediensförteckningar,
+- säkerhets- och varningstexter,
+- bruks- och monteringsanvisningar,
+- teknisk och kommersiell dokumentation.
+
+Användning i reglerade sammanhang förutsätter separat granskning av tillämpliga språk- och märkningskrav.
