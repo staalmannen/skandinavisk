@@ -40,3 +40,35 @@ En frivillig standard ersätter inte automatiskt lagstadgade språkkrav. Särski
 
 ## Föreslagna intressenter
 Nordiska standardiseringsorgan, tillverkare med gemensamma nordiska produkter och manualer, översättnings- och dokumentationsbyråer, konsumentorganisationer, relevanta myndigheter, språkvetare och terminologer. Kontakter och finansieringsmöjligheter ska verifieras innan de presenteras som konkreta samarbeten eller stöd.
+
+
+## Projektets eget språkbruk – dogfooding
+
+Ett långsiktigt mål är att projektet självt ska använda den standard det utvecklar. När stavningsregler, grundläggande grammatik och ett tillräckligt ordförråd har etablerats ska projektets texter successivt översättas till skandinaviska.
+
+Detta omfattar i första hand README-filer, språkregler, handböcker, exempeltexter och annan dokumentation. På sikt kan även issues, pull request-beskrivningar och commit-meddelanden skrivas på skandinaviska.
+
+### Arbetsspråk under utvecklingen
+
+Under den tidiga utvecklingsfasen är svenska ett praktiskt arbetsspråk. Det är ett redaktionellt hjälpmedel, inte ett ställningstagande om att den slutliga standarden ska vara svenskbaserad. Danska och norska bidrag ska kunna lämnas på respektive språk och användas som underlag.
+
+### Stegvis övergång
+
+1. **Etablera grunden:** fastställ centrala stavningsregler, böjningsprinciper och en första kärnordlista.
+2. **Skapa en referenstext:** skriv eller översätt en kort, representativ del av dokumentationen till skandinaviska.
+3. **Använd och testa:** använd texten i projektets vardag och notera saknade ord, oklara regler, svårhanterliga böjningar och formuleringar som känns onaturliga.
+4. **Förbättra normen:** uppdatera regler och ordlista utifrån dokumenterade problem, med granskning från svenska, danska och norska perspektiv.
+5. **Översätt successivt:** när varje del av normen blir tillräckligt stabil kan fler delar av projektet övergå till skandinaviska.
+
+Övergången ska inte forceras. Det ska vara möjligt att behålla svensk, dansk eller norsk källtext vid behov, särskilt när en regel fortfarande är under diskussion. Översättningar ska inte dölja osäkerhet eller göra preliminära former till skenbart fastställda normer.
+
+### Nytta
+
+Dogfooding gör skriftspråket praktiskt prövbart. Projektets egna texter blir ett kontinuerligt testmaterial som kan avslöja:
+- luckor i ordförrådet,
+- inkonsekventa stavnings- eller böjningsregler,
+- otydliga formuleringar,
+- problem med begriplighet mellan länderna,
+- behov av terminologiska beslut.
+
+Projektets språkbruk blir därmed en del av utvecklings- och kvalitetssäkringsprocessen.
